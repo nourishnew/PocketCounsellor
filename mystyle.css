@@ -1,0 +1,68 @@
+.App{
+    margin:0px;
+  }
+  .btn{
+    
+    width:20em;
+    border-radius: 2em;
+    margin:1em;
+    background-color: #61dafb;
+    font-size: 25px;
+    padding: 25px;
+  
+    
+    
+  }
+  .submit:hover{
+    background-color: lightskyblue;
+  }
+  
+  .inputText{
+    box-sizing: border-box;
+    height:15em;
+    font-size: 1em;
+    border: 1px solid white;
+    color:black;
+    display:block;
+    line-height: 1.2;
+    outline: 0;
+    padding: 1em;
+    width: 100%;
+    border-radius: 2em;
+    margin: 0px;
+      
+  }
+  .title{
+    text-align: center;
+    font-size: 5em;
+    background-color: #61dafb;
+    padding: 25px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .App-header {
+    background-color: hsl(220, 62%, 25%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
